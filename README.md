@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muhammad Ashiq S — Portfolio
 
-## Getting Started
+A responsive Next.js App Router portfolio for AI digital marketing, search
+optimization, AI-assisted content, and web development.
 
-First, run the development server:
+## Routes
+
+- `/` — Home
+- `/about` — About Me
+- `/skills` — Filterable skills directory
+- `/education` — Education, internships, and workshops
+- `/projects` — Searchable and filterable project directory
+- `/experience` — Work and practical experience
+- `/contact` — Contact details and email-draft form
+
+## Run locally
+
+Install dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run the production build with:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Contact and resume setup
 
-To learn more about Next.js, take a look at the following resources:
+The contact form uses the visitor's configured email app to prepare a message
+for `muhammadashiqsa@gmail.com`. It does not send messages automatically; no
+email service or backend is configured.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The resume PDF was not present in the supplied project files. Add the actual
+PDF at `public/resume/muhammad-ashiq-s-resume.pdf` before exposing a download
+link. Until then, the portfolio offers an email link to request it instead.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy this Next.js project with a hosting provider that supports Next.js, such
+as Vercel. Connect the repository, keep the default Next.js build and output
+settings, and deploy. No application secrets or environment variables are
+required by this version.

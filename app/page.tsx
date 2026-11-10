@@ -48,7 +48,7 @@ const videoProjects = [
     number: "01",
     title: "Short Advertisement Video",
     category: "Advertising",
-    url: "https://www.instagram.com/a_s_h_i_q___?obrf=MW0wdHdybDdocHZkdA==",
+    url: "https://www.instagram.com/reel/DUXMUMiCWoU/?psln=MTVyamVsZW5yZmt1bw==",
     thumbnail: null as string | null,
   },
   {
